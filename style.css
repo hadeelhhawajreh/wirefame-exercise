@@ -1,21 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 * {
     box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
   } 
 div{
-    border: 1px solid white;
+    border: 1px dashed  whitesmoke;
 }
 ul li  {
     background-attachment: fixed;
     background-color: black;
-    color: blanchedalmond;
+    color: gray;
     display:inline;
     padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    
-
+    margin-left: 10px;
+    margin-right: 10px;
     list-style: none;
-  margin: 0;
+    
 }
 div img{
     display: block;
