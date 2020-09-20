@@ -4,58 +4,100 @@
     box-sizing: border-box;
     font-family: 'Questrial', sans-serif;
   } 
-div{
-    border: 1px dashed  whitesmoke;
+#navs{
+    margin-top: -10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 5px;
+
 }
+#foot{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+
+
+
 ul li  {
     float: left;
-    margin-top: 10px;
-    background-attachment: fixed;
+    margin-top: 20px;
     background-color: white;
     color: black;
     font-weight: bold;
     display:inline;
     padding: 10px;
     margin-left: 30px;
-    margin-right: 25px;
+    margin-right: 8px;
     list-style: none;
     
 }
-div img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+ img{
+    /* display: block; */
+    margin-left: 25%;
+    margin-right: 25%;
     width: 50%;
 }
 #imgH{
-    margin-top: 1px;
+    margin-top: 10px;
     float: left;
     height: 70px;
     width: 150px;
     margin-right: 70px;
-    margin-left: 70px;
+    margin-left: 320px;
 
 }
 #parag{
-    overflow: scroll; 
-    height:90%;
-    width: 90%;
-
+    overflow: scroll;
+    display: inline-block; 
+    height: 25%;
+    width:25%;
+    
+    margin-right: 170px;
+    
+   
     
 }
-.img1{
-    /* display: inline;
-    margin-left: 20%;
-    margin-right:20% ; */
 
-}
+
+
 #btn{
     background-color: lightcyan;
 }
 #p2{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 2%;
     margin-left: 25%;
     margin-right: 25%;
 
+}
+#imgp{
+    /* margin-top: 900px; */
+    margin-left: 10px;
+    margin-right: 100px;
+
+    
+
+    
+}
+#imgg4{
+    height: 300px;
+    width: 200px;
+    display: inline;
+}
+#img-container{
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    margin-left:280px ;
+    margin-right: 2px;
+    
+}
+.img{
+    float: left;
+    height: 375px;
+    width: 270px;
+    padding: 25px;
+ 
 }
